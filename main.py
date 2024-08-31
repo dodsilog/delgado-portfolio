@@ -7,7 +7,7 @@ st.set_page_config(page_title="Donnell's Portfolio", page_icon="🐼", layout="w
 
 
 # Sidebar content
-st.sidebar.image("logo.jpg", use_column_width=True)
+st.sidebar.image("Logo.jpg", use_column_width=True)
 sections = ["Home", "About Me", "Skills", "Projects"]
 selection = st.sidebar.radio("", sections)
 
